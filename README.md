@@ -1,1 +1,4 @@
-# attack_type_dl
+# Attack Type Classification on rt-iot2022 dataset
+The RT-IoT2022 dataset is a detailed collection of data from real-time IoT systems. It includes information from various IoT devices like smart lights and temperature sensors, as well as data on different types of network attacks, such as brute-force SSH, DDoS, and network scanning. The dataset tracks both normal and suspicious network activity, using advanced tools to monitor and record traffic. It’s designed to help researchers improve Intrusion Detection Systems (IDS) by providing a realistic view of IoT network security challenges.
+
+This Streamlit application provides a user-friendly interface for predicting network attack types based on the proto (protocol) and service features from network traffic data. The underlying machine learning model, trained on labeled data, predicts the attack type and displays the result along with the confidence score of the prediction.
